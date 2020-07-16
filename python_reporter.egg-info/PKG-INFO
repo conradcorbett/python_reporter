@@ -1,0 +1,16 @@
+Metadata-Version: 1.0
+Name: python-reporter
+Version: 1.0
+Summary: Use the Prism Central API to get Nutanix environment info.
+Home-page: UNKNOWN
+Author: <your_name_here>
+Author-email: <your_email_address_here>
+License: UNKNOWN
+Description: Python Reporter
+        ###############
+        
+        "As-built" documentation script for use with Nutanix **Prism Central** 5.5.0.6 or later.
+        
+        <Fill in complete details here, at your leisure>
+        
+Platform: UNKNOWN

@@ -1,0 +1,175 @@
+<!doctype html>
+
+<html lang="en-us">
+
+<head>
+    <title>Prism Central Details (API v3)</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <style type="text/css">
+        body { font-family: 'Open Sans', sans-serif; margin: 10px !important; }
+        .pc_card { width: 80%; margin: 20px auto; }
+    </style>
+</head>
+
+<body>
+
+<div id="main_content">
+
+    <p>The Prism Central information shown in this page is intended for demo purposes only.</p>
+    <p>Please be aware that the totals shown in parentheses next to each entity type are accurate for each entity type, but <strong>includes deleted entities</strong>. This is particularly applicable to entities such as blueprints and apps.</p>
+
+    <div class="card pc_card">
+        <div class="card-header">Clusters (2)</div>
+        <div class="card-body">
+            <table class="table">
+                <tr class="tr_header">
+                    <td>Type</td>
+                    <td>Name</td>
+                    <td>IP address</td>
+                    <td>Software</td>
+                    <td>CE?</td>
+                </tr>
+                <tr class="final">
+                        <tr><td>AOS</td><td>PHX-POC159</td><td>10.42.159.37</td><td>5.15.1</td><td>No</td><tr><td>Prism Central</td><td>Unnamed</td><td>N/A</td><td>5.17.1</td><td>No</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="card pc_card">
+        <div class="card-header">Hosts (5)</div>
+        <div class="card-body">
+            <table class="table">
+                <tr class="tr_header">
+                    <td>Name</td>
+                    <td>S/N</td>
+                    <td>IP</td>
+                    <td>CVM IP</td>
+                    <td># of VMs</td>
+                </tr>
+                <tr class="final">
+                    <tr><td>PHX-POC159-1</td><td>HM191S000047</td><td>10.42.159.25</td><td>10.42.159.29</td><td>9</td></tr><tr><td>N/A</td><td>10-42-159-40</td><td>N/A</td><td>10.42.159.40</td><td>N/A</td></tr><tr><td>PHX-POC159-2</td><td>HM191S000305</td><td>10.42.159.26</td><td>10.42.159.30</td><td>18</td></tr><tr><td>PHX-POC159-3</td><td>HM191S000482</td><td>10.42.159.27</td><td>10.42.159.31</td><td>18</td></tr><tr><td>PHX-POC159-4</td><td>HM191S001791</td><td>10.42.159.28</td><td>10.42.159.32</td><td>19</td></tr>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="card pc_card">
+        <div class="card-header">VMs (61)</div>
+        <div class="card-body">
+            <table class="table">
+                <tr class="tr_header">
+                    <td>Cluster:Name</td>
+                    <td>Description</td>
+                </tr>
+                <tr class="final">
+                    <tr><td>PHX-POC159:PC1-PHX-POC159</td><td>NutanixPrismCentral</td></tr><tr><td>PHX-POC159:DC1-PHX-POC159</td><td>None provided</td></tr><tr><td>PHX-POC159:MSSQL1-PHX-POC159</td><td>None provided</td></tr><tr><td>PHX-POC159:ERA1-PHX-POC159</td><td>None provided</td></tr><tr><td>PHX-POC159:XRAY1-PHX-POC159</td><td>None provided</td></tr><tr><td>PHX-POC159:DC2-PHX-POC159</td><td>None provided</td></tr><tr><td>PHX-POC159:Oracle1-PHX-POC159</td><td>None provided</td></tr><tr><td>PHX-POC159:MySQL1-PHX-POC159</td><td>DBServer VM for MySQL created by ERA</td></tr><tr><td>PHX-POC159:PostG-PHX-POC159-Node-01</td><td>DBServer for Postgres DB PostGHADB01 created by ERA</td></tr><tr><td>PHX-POC159:Maria1-PHX-POC159</td><td>DBServer VM for MariaDB created by ERA</td></tr><tr><td>PHX-POC159:NTNX-FS1I-PHX-POC159-1</td><td>None provided</td></tr><tr><td>PHX-POC159:NTNX-FS1I-PHX-POC159-2</td><td>None provided</td></tr><tr><td>PHX-POC159:NTNX-FS1I-PHX-POC159-3</td><td>None provided</td></tr><tr><td>PHX-POC159:PostG-PHX-POC159-Node-02</td><td>DBServer for Postgres DB PostGHADB01 created by ERA</td></tr><tr><td>PHX-POC159:PostG-PHX-POC159-Node-03</td><td>DBServer for Postgres DB PostGHADB01 created by ERA</td></tr><tr><td>PHX-POC159:PostG-PHX-POC159-Proxy-01</td><td>DBServer for Postgres DB PostGHADB01 created by ERA</td></tr><tr><td>PHX-POC159:PostG1-PHX-POC159</td><td>DBServer VM for PostgresSQL created by ERA</td></tr><tr><td>PHX-POC159:NTNX-FA-FSAnalitics-PHX-POC159</td><td>FileAnalytics</td></tr><tr><td>PHX-POC159:MSSQL2-PHX-POC159</td><td>None provided</td></tr><tr><td>PHX-POC159:Oracle2-PHX-POC159</td><td>1CD Database Instance Clone</td></tr>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="card pc_card">
+        <div class="card-header">Subnets (2)</div>
+        <div class="card-body">
+            <table class="table">
+                <tr class="tr_header">
+                    <td>Name</td>
+                    <td>Cluster</td>
+                </tr>
+                <tr class="final">
+                    <tr><td>Network-01</td><td>PHX-POC159</td></tr><tr><td>Network-02</td><td>PHX-POC159</td></tr>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="card pc_card">
+        <div class="card-header">Projects (6)</div>
+        <div class="card-body">
+            <table class="table">
+                <tr class="tr_header">
+                    <td>Name</td>
+                    <td>VMs</td>
+                    <td>vCPUs</td>
+                    <td>Storage (GB)</td>
+                    <td>RAM (GB)</td>
+                </tr>
+                <tr class="final">
+                    <tr><td>default</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Customer-A Project 1</td><td>0</td><td>0</td><td>0.0</td><td>0.0</td></tr><tr><td>Customer-B Project 1</td><td>0</td><td>0</td><td>0.0</td><td>0.0</td></tr><tr><td>Customer-C Project 1</td><td>0</td><td>0</td><td>0.0</td><td>0.0</td></tr><tr><td>Customer-D Project 1</td><td>0</td><td>0</td><td>0.0</td><td>0.0</td></tr><tr><td>JF-Project</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="card pc_card">
+        <div class="card-header">Apps (14)</div>
+        <div class="card-body">
+            <table class="table">
+                <tr class="tr_header">
+                    <td>Name</td>
+                    <td>Project</td>
+                    <td>Status</td>
+                </tr>
+                <tr class="final">
+                    <tr><td>IIS-30eafdec-fbc9-4bc0-b20a-cfe2a81cc266</td><td>Customer-B Project 1</td><td>RUNNING</td></tr><tr><td>JF_DEPLOY_001</td><td>JF-Project</td><td>RUNNING</td></tr><tr><td>IIS-8fa7f9bc-7cb3-4aab-91c1-a56d0c70dc86</td><td>Customer-B Project 1</td><td>RUNNING</td></tr><tr><td>JF_AHV_DEMO_01</td><td>JF-Project</td><td>RUNNING</td></tr><tr><td>IIS-dc9821ba-ac05-4b3c-a102-184c745812ab</td><td>Customer-B Project 1</td><td>ERROR</td></tr><tr><td>JF_AWS_DEMO01</td><td>JF-Project</td><td>RUNNING</td></tr><tr><td>Hadoop</td><td>Customer-A Project 1</td><td>RUNNING</td></tr><tr><td>Puppet Open Source</td><td>Customer-A Project 1</td><td>RUNNING</td></tr><tr><td>Elastic Search</td><td>Customer-A Project 1</td><td>RUNNING</td></tr><tr><td>Rabbit MQ</td><td>Customer-A Project 1</td><td>RUNNING</td></tr><tr><td>HashiCorpVault</td><td>Customer-D Project 1</td><td>RUNNING</td></tr><tr><td>Splunk Instance</td><td>Customer-D Project 1</td><td>RUNNING</td></tr><tr><td>Microsoft GitLab</td><td>Customer-A Project 1</td><td>RUNNING</td></tr><tr><td>IIS-000</td><td>Customer-B Project 1</td><td>RUNNING</td></tr>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="card pc_card">
+        <div class="card-header">Blueprints (28)</div>
+        <div class="card-body">
+            <table class="table">
+                <tr class="tr_header">
+                    <td>Name</td>
+                    <td>Project</td>
+                    <td>Status</td>
+                </tr>
+                <tr class="final">
+                    <tr><td>JF_Gopher_Demo</td><td>JF-Project</td><td>ACTIVE</td></tr><tr><td>JF_DEMO_AWS</td><td>JF-Project</td><td>ACTIVE</td></tr><tr><td>JF_Demo_AHV</td><td>JF-Project</td><td>ACTIVE</td></tr><tr><td>Gitlab_Clone_002</td><td>Customer-A Project 1</td><td>ACTIVE</td></tr><tr><td>Hadoop_Clone_001</td><td>Customer-A Project 1</td><td>ACTIVE</td></tr><tr><td>JF_Demo_02</td><td>JF-Project</td><td>DRAFT</td></tr><tr><td>JF_Demo_01</td><td>JF-Project</td><td>ACTIVE</td></tr><tr><td>Hadoop</td><td>Customer-A Project 1</td><td>ACTIVE</td></tr><tr><td>Puppet</td><td>Customer-A Project 1</td><td>ACTIVE</td></tr><tr><td>Elastic Search</td><td>Customer-A Project 1</td><td>ACTIVE</td></tr><tr><td>Rabit MQ</td><td>Customer-A Project 1</td><td>ACTIVE</td></tr><tr><td>Demo-Linux-Vault-Hashicorp</td><td>Customer-D Project 1</td><td>ACTIVE</td></tr><tr><td>Demo-Linux-Enterprise-Splunk</td><td>Customer-D Project 1</td><td>ACTIVE</td></tr><tr><td>GitLab</td><td>Customer-A Project 1</td><td>ACTIVE</td></tr><tr><td>Demo-Windows-3Tier-Microsoft</td><td>default</td><td>DRAFT</td></tr><tr><td>test</td><td>default</td><td>DRAFT</td></tr><tr><td>Docker Enterprise 2</td><td>default</td><td>DRAFT</td></tr><tr><td>Cisco ACI Automation</td><td>default</td><td>DRAFT</td></tr><tr><td>GTSX2019-Windows2016</td><td>default</td><td>DRAFT</td></tr><tr><td>GTSX2019-Ubuntu-Base</td><td>default</td><td>DRAFT</td></tr>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="card pc_card">
+        <div class="card-header">Network Security Rules (2)</div>
+        <div class="card-body">
+            <table class="table">
+                <tr class="tr_header">
+                    <td>Name</td>
+                </tr>
+                <tr class="final">
+                    <tr><td>Quarantine</td></tr><tr><td>Quarantine</td></tr>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="card pc_card">
+            <div class="card-header">Images (27)</div>
+            <div class="card-body">
+                <table class="table">
+                    <tr class="tr_header">
+                        <td>Name</td>
+                        <td>Image Type</td>
+                    </tr>
+                    <tr class="final">
+                        <tr><td>Frame_CCAISOAuto</td><td>ISO_IMAGE</td></tr><tr><td>office2016ISO</td><td>ISO_IMAGE</td></tr><tr><td>SQL2014ISO</td><td>ISO_IMAGE</td></tr><tr><td>Oracle_1_1</td><td>DISK_IMAGE</td></tr><tr><td>CentOS_1CD</td><td>DISK_IMAGE</td></tr><tr><td>Oracle_1_3</td><td>DISK_IMAGE</td></tr><tr><td>Oracle_1_6</td><td>DISK_IMAGE</td></tr><tr><td>Windows2016ISO</td><td>ISO_IMAGE</td></tr><tr><td>Citrix_1912_ISO</td><td>ISO_IMAGE</td></tr><tr><td>Windows 2012</td><td>DISK_IMAGE</td></tr><tr><td>Oracle_1_4</td><td>DISK_IMAGE</td></tr><tr><td>Oracle_1_0</td><td>DISK_IMAGE</td></tr><tr><td>XRAYAuto</td><td>DISK_IMAGE</td></tr><tr><td>Windows 10_1CD</td><td>DISK_IMAGE</td></tr><tr><td>Windows 2016</td><td>DISK_IMAGE</td></tr><tr><td>Oracle_1_2</td><td>DISK_IMAGE</td></tr><tr><td>ERAAuto</td><td>DISK_IMAGE</td></tr><tr><td>Windows2016ISO</td><td>ISO_IMAGE</td></tr><tr><td>MSSQL-2016-VM</td><td>DISK_IMAGE</td></tr><tr><td>MoveAuto</td><td>DISK_IMAGE</td></tr>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+</div>
+
+<div id="footer_content">
+    Nutanix cluster details generated on <strong>16-Jul-2020</strong> at <strong>142808</strong> by <strong>conrad.corbett</strong> on <strong>C02WD1NAHTDD</strong>
+</div>
+
+</body>
+
+</html>
